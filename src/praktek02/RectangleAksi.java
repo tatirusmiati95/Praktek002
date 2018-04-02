@@ -8,7 +8,10 @@ public class RectangleAksi {
         r1.panjang = 9;
         r1.lebar = 3;
         
-     r1.cetakInfo();
+     
+        r1.cetakInfo();
+        System.out.println("Luas rectangle="+r1.hitungLuas());
+
     }
     
 }
